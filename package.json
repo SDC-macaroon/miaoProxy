@@ -4,7 +4,9 @@
   "description": "",
   "author": "Philip Enchin",
   "license": "ISC",
-  "scripts": {},
+  "scripts": {
+    "start-dev": "nodemon server/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
