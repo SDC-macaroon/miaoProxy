@@ -24,3 +24,4 @@ coverage
 build/
 dist/*
 !dist/productList.html
+!dist/productPage.html

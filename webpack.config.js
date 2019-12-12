@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   entry: {
     productList: './philipService/client/productList/index.jsx',
+    productPage: './client/productPage.jsx',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -17,6 +18,10 @@ module.exports = {
         options: {
           presets: ['@babel/preset-env', '@babel/preset-react'],
         },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
