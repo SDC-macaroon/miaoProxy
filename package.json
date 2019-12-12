@@ -1,17 +1,16 @@
 {
-  "name": "",
-  "version": "",
+  "name": "philipproxy",
+  "version": "0.0.1",
   "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
-  "scripts": {
-  },
+  "author": "Philip Enchin",
+  "license": "ISC",
+  "scripts": {},
   "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
   }
 }
