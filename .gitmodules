@@ -1,0 +1,3 @@
+[submodule "philipService"]
+	path = philipService
+	url = https://github.com/Nutritious-Insurance/philipService.git
