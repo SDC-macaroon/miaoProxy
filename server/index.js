@@ -7,8 +7,8 @@ const philipPort = 1729;
 
 app.use(express.static('dist', { index: 'productList.html' }));
 
-app.use('/api/productPreview/all', (req, res) => {
-  request(`http://localhost:${philipPort}/api/productPreview/all`).pipe(res);
+app.use(/\/api\/productPreview\/.*/, (req, res) => {
+  request(`${req.protocol}://localhost:${philipPort}${req.originalUrl}`).pipe(res);
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
