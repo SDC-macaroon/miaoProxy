@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ColourPreview from '../philipService/client/productPage/components/ColourPreview';
 import {} from '../johnService/client/src/index';
-import '../johnService/client/public/style.css';
 import {} from '../javService/client/src/index';
 
 const [,, productId] = window.location.pathname.split('/');
