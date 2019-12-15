@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ColourPreview from '../philipService/client/productPage/components/ColourPreview';
-import {} from '../johnService/client/src/index';
-import {} from '../javService/client/src/index';
+import '../johnService/client/src/index';
+import '../javService/client/src/index';
 import './fillerComponents/Header';
 import './styles.css';
 
