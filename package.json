@@ -5,6 +5,7 @@
   "author": "Philip Enchin",
   "license": "ISC",
   "scripts": {
+    "start": "webpack --mode=\"production\" && npm run start-philip & npm run start-john & npm run start-jav & nodemon server/index.js",
     "start-dev": "npm run start-philip & npm run start-john & npm run start-jav & nodemon server/index.js & webpack --watch --mode=\"development\"",
     "start-philip": "node philipService/server/index.js",
     "start-john": "node johnService/server/index.js",
