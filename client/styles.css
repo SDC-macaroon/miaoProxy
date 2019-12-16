@@ -1,0 +1,24 @@
+.main-content {
+  display: flex;
+  max-width: 100%;
+  justify-content: flex-start;
+  min-width: 1000px;
+}
+
+.main-content>.product {
+  width: calc(100% - 400px);
+}
+
+.main-content>.summary {
+  width: 400px;
+}
+
+.carousel {
+  margin-left: 0;
+  margin-right: 500px;
+}
+
+#nextButton {
+  right: 5px;
+  left: initial;
+}

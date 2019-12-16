@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const renderMenu = (heading, menuItems) => (
-  <div className="menu">
+  <div className="menu" key={heading}>
     <div className="heading">{heading}</div>
     <div className="popup">
       <div className="spacer" />
       <div className="menuItems">
-        {menuItems.map(item => <div className="menuItem">{item}</div>)}
+        {menuItems.map(item => <div className="menuItem" key={item}>{item}</div>)}
       </div>
     </div>
   </div>
