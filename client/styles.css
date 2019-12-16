@@ -15,10 +15,18 @@
 
 .carousel {
   margin-left: 0;
-  margin-right: 500px;
 }
 
 #nextButton {
   right: 5px;
   left: initial;
+}
+
+.reviewsContainer,
+.features {
+  width: 100%;
+}
+
+.reviewsChartContainer {
+  width: 280px;
 }
