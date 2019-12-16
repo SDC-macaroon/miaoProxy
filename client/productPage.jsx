@@ -20,7 +20,7 @@ const scaleCarousel = () => {
   carousel.style.transform = `scale(${scale})`;
   carousel.style.transformOrigin = 'top left';
 
-  document.getElementsByClassName('outerBox')[0].style.height = `${carousel.clientHeight * scale}px`;
+  document.getElementsByClassName('outerBox')[0].style.height = `${458 * scale}px`;
 };
 
 scaleCarousel();
