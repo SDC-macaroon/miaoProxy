@@ -8,7 +8,11 @@
     "start-dev": "npm run start-philip & npm run start-john & npm run start-jav & nodemon server/index.js & webpack --watch --mode=\"development\"",
     "start-philip": "node philipService/server/index.js",
     "start-john": "node johnService/server/index.js",
-    "start-jav": "node javService/server/index.js"
+    "start-jav": "node javService/server/index.js",
+    "db:seed": "npm run db:seed-philip && npm run db:seed-john && npm run db:seed-jav",
+    "db:seed-philip": "cp APIs/philipService.js philipService/APIs/unsplash.js && node philipService/database/seed.js && rm philipService/APIs/unsplash.js",
+    "db:seed-john": "cp APIs/johnService.js johnService/keys.js && node johnService/database/seed.js && rm johnService/keys.js",
+    "db:seed-jav": "node javService/database/seed.js"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -33,6 +37,7 @@
     "faker": "^4.1.0",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2",
     "rc-progress": "^2.5.2",
     "react": "^16.12.0",
@@ -40,6 +45,7 @@
     "react-star-rating-component": "^1.4.1",
     "reactstrap": "^8.2.0",
     "style-loader": "^1.0.1",
+    "unsplash-js": "^6.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
