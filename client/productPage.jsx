@@ -5,6 +5,8 @@ import '../johnService/client/src/index';
 import '../javService/client/src/index';
 import './components/Header';
 import './components/header.css';
+import './components/productSummary';
+import './components/productSummary.css';
 import './styles.css';
 
 const [,, productId] = window.location.pathname.split('/');
