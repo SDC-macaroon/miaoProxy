@@ -44,9 +44,7 @@
 .ProductSummary>.sizes>.size.selected {
   background-color: #333;
   color: white;
-  border: none;
-  width: 34px;
-  height: 34px;
+  border-color: white;
 }
 
 .ProductSummary>.addToCart {
