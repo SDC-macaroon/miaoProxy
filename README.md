@@ -4,7 +4,7 @@
 
 ## Related Projects
 
-  - https://github.com/Nutritious-Insurance/philipService/
+  - https://github.com/SDC-macaroon/product.git
   - https://github.com/Nutritious-Insurance/johnService/
   - https://github.com/Nutritious-Insurance/javService/
 
@@ -18,7 +18,7 @@
 
 1. Clone this repo using this command:
 ```bash
-git clone --recurse-submodules https://github.com/Nutritious-Insurance/philipProxy.git
+git clone --recurse-submodules https://github.com/SDC-macaroon/miaoProxy.git
 ```
 2. Install dependencies:
 ```bash
