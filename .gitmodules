@@ -1,6 +1,6 @@
 [submodule "philipService"]
 	path = philipService
-	url = https://github.com/Nutritious-Insurance/philipService.git
+	url = https://github.com/SDC-macaroon/product.git
 [submodule "javService"]
 	path = javService
 	url = https://github.com/Nutritious-Insurance/javService.git
